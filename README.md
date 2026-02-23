@@ -42,14 +42,6 @@ In this lab, I implemented two fundamentally different anomaly detection approac
 
 ### **1. Dynamic Time Warping (DTW)**  
 A distance measure for sequences that allows non-linear alignment.  
-A test sequence is considered anomalous if:
-
-
-
-\[
-\text{DTW}(x_{\text{test}}, x_{\text{nearest train}}) > \tau
-\]
-
 
 
 ### **2. PCA-Based Anomaly Detection**  
@@ -85,18 +77,6 @@ The goal is to predict whether a user will like a new suggested match.
 ## 🛠 Methods Implemented
 
 ### **1. Non-Negative Matrix Factorization (NMF)**  
-Factorizes the user–item matrix into:
-
-
-
-\[
-R \approx WH
-\]
-
-
-
-where both \(W\) and \(H\) are non-negative.  
-This captures latent user preferences and item attributes.
 
 ### **2. Min-Hashing + Jaccard Distance**  
 Even though the dataset fits in memory, min-hashing is required to:
