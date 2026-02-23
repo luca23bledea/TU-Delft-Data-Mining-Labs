@@ -100,7 +100,7 @@ Each notebook is self-contained and includes explanations, visualizations, and e
 
 # 🧑‍💻 Authors
 
-**Luca Bledea**<br>
-**Tudor Berechet** <br>
+**Luca Bledea** and
+**Tudor Berechet**
 TU Delft — Data Mining (2025–2026)
 
